@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="AirBNB main page" />
+    <meta name="author" content="Ernest" />
+
+    <title>AirBNB main page</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav">
+        <a href="" target="_blank"
+          ><svg
+            width="1.25rem"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            fill-opacity="0"
+            stroke="currentColor"
+            stroke-width="1.5"
+            focusable="false"
+            aria-hidden="true"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M12 18.7l-.4-.5a12.3 12.3 0 0 1-2.5-4.6c0-.6-.1-1.2 0-1.6 0-.4.2-.9.4-1.2A3 3 0 0 1 12 9.5c1 0 2 .5 2.5 1.3.2.3.4.8.4 1.2.1.4 0 1 0 1.6-.3 1.3-1.2 3-2.5 4.6l-.4.5z"
+            ></path>
+            <path
+              d="M12 18.8c1 1.6 2.5 2.9 4.2 3.2h.7a4.3 4.3 0 0 0 4.2-5v-.2a74.7 74.7 0 0 0-6.4-13.2c-.6-1-1.5-1.7-2.7-1.7s-2.1.8-2.7 1.7A74.7 74.7 0 0 0 3 16.8v.2l-.2.8a4.3 4.3 0 0 0 4.8 4.3h.2c1.7-.4 3.1-1.7 4.2-3.3"
+            ></path>
+          </svg>
+          <div>AirBNB</div>
+        </a>
+        <a class="active" href="main.html">Home</a>
+        <a href="feedback.html">Feedbacks</a>
+        <a href="about.html">About</a>
+      </div>
+    </header>
+    <div>
+      <div>
+        <h1>AirBNB</h1>
+        <p class="ht">Welcome to your home away from home in Meru, Kenya! Let us be your host for an unforgettable holiday experience.
+          Relax, unwind, and enjoy the warmth and beauty of Meru with all the comforts of home.</p>
+      </div>
+
+<div>
+    <h3>Meru Town</h3>
+    <div class="album">
+        <div class="card">
+            <a target="_blank" href="booking1.html">
+                <img class="image" src="./images/1.webp" alt="Cozy Room in the Heart of Meru" />
+            </a>
+            <h5>Cozy Room in the Heart of Meru</h5>
+            <div class="rating"><span>★★★★☆</span></div>
+            <div>
+                Stay in a spacious, well-furnished one-bedroom apartment located in the center of Meru Town, close to Magunas.
+                Ideal for couples or solo travelers. <strong>Price: 5,500 KES/night</strong>
+            </div>
+            <div><strong>Max Guests:</strong> 2</div>
+            <button onclick="openBookingModal('Cozy Room in the Heart of Meru', 5500)">Book Now</button>
+        </div>
+
+        <div class="card">
+            <a target="_blank" href="booking2.html">
+                <img class="image" src="./images/2.webp" alt="Spacious 2-Bedroom Apartment" />
+            </a>
+            <h5>Spacious 2-Bedroom Apartment</h5>
+            <div class="rating"><span>★★★★★</span></div>
+            <div>
+                Perfect for families or groups, this modern 2-bedroom apartment offers comfort and convenience in the heart of Meru.
+                <strong>Price: 8,500 KES/night</strong>
+            </div>
+            <div><strong>Max Guests:</strong> 4</div>
+            <button onclick="openBookingModal('Spacious 2-Bedroom Apartment', 8500)">Book Now</button>
+        </div>
+
+        <div class="card">
+            <a href="booking3.html" target="_blank">
+                <img class="image" src="./images/3.jpg" alt="Luxury 3-Bedroom Suite in Meru" />
+            </a>
+            <h5>Luxury 3-Bedroom Suite in Meru</h5>
+            <div class="rating"><span>★★★★★</span></div>
+            <div>
+                Experience luxury and space in this 3-bedroom suite, located near the bustling Meru CBD, ideal for families or business groups.
+                <strong>Price: 12,000 KES/night</strong>
+            </div>
+            <div><strong>Max Guests:</strong> 6</div>
+            <button onclick="openBookingModal('Luxury 3-Bedroom Suite in Meru', 12000)">Book Now</button>
+        </div>
+    </div>
+
+    <h3>Makutano</h3>
+    <div class="album">
+        <div class="card">
+            <a target="_blank" href="booking5.html">
+                <img class="image" src="./images/5.webp" alt="Modern 2-Bedroom Home in Makutano" />
+            </a>
+            <h5>Modern 2-Bedroom Home in Makutano</h5>
+            <div class="rating"><span>★★★★☆</span></div>
+            <div>
+                Enjoy this stylish 2-bedroom home with modern amenities, perfect for a family retreat or a group stay.
+                <strong>Price: 7,000 KES/night</strong>
+            </div>
+            <div><strong>Max Guests:</strong> 4</div>
+            <button onclick="openBookingModal('Modern 2-Bedroom Home in Makutano', 7000)">Book Now</button>
+        </div>
+
+        <div class="card">
+            <a target="_blank" href="booking6.html">
+                <img class="image" src="images/6.webp" alt="Private One-Bedroom Suite in Makutano" />
+            </a>
+            <h5>Private One-Bedroom Suite in Makutano</h5>
+            <div class="rating"><span>★★★★☆</span></div>
+            <div>
+                Relax in this private one-bedroom suite, ideal for couples or business travelers. Located in the heart of Makutano.
+                <strong>Price: 5,000 KES/night</strong>
+            </div>
+            <div><strong>Max Guests:</strong> 2</div>
+            <button onclick="openBookingModal('Private One-Bedroom Suite in Makutano', 5000)">Book Now</button>
+        </div>
+
+        <div class="card">
+            <a target="_blank" href="booking7.html">
+                <img class="image" src="images/7.webp" alt="Charming Studio in Makutano" />
+            </a>
+            <h5>Charming Studio in Makutano</h5>
+            <div class="rating"><span>★★★☆☆</span></div>
+            <div>
+                This cozy studio is perfect for solo travelers, offering easy access to Makutano’s vibrant streets.
+                <strong>Price: 3,500 KES/night</strong>
+            </div>
+            <div><strong>Max Guests:</strong> 1</div>
+            <button onclick="openBookingModal('Charming Studio in Makutano', 3500)">Book Now</button>
+        </div>
+    </div>
+
+    <h3>Nkubu</h3>
+    <div class="album">
+        <div class="card">
+            <a target="_blank" href="booking8.html">
+                <img class="image" src="images/9.jpg" alt="Family-Friendly 3-Bedroom House in Nkubu" />
+            </a>
+            <h5>Family-Friendly 3-Bedroom House in Nkubu</h5>
+            <div class="rating"><span>★★★★☆</span></div>
+            <div>
+                A spacious and family-friendly 3-bedroom house located in Nkubu, perfect for large groups.
+                <strong>Price: 10,500 KES/night</strong>
+            </div>
+            <div><strong>Max Guests:</strong> 6</div>
+            <button onclick="openBookingModal('Family-Friendly 3-Bedroom House in Nkubu', 10500)">Book Now</button>
+        </div>
+
+        <div class="card">
+            <a target="_blank" href="booking9.html">
+                <img class="image" src="images/10.jpg" alt="Peaceful Two-Bedroom Getaway in Nkubu" />
+            </a>
+            <h5>Peaceful Two-Bedroom Getaway in Nkubu</h5>
+            <div class="rating"><span>★★★☆☆</span></div>
+            <div>
+                This serene two-bedroom home offers a peaceful retreat with easy access to Nkubu’s beautiful landscapes.
+                <strong>Price: 6,500 KES/night</strong>
+            </div>
+            <div><strong>Max Guests:</strong> 4</div>
+            <button onclick="openBookingModal('Peaceful Two-Bedroom Getaway in Nkubu', 6500)">Book Now</button>
+        </div>
+
+        <div class="card">
+            <a target="_blank" href="booking10.html">
+                <img class="image" src="images/11.jpg" alt="Single Room Haven in Nkubu" />
+            </a>
+            <h5>Single Room Haven in Nkubu</h5>
+            <div class="rating"><span>★★★☆☆</span></div>
+            <div>
+                A quiet single-room apartment for a budget-friendly stay, ideal for solo travelers.
+                <strong>Price: 2,800 KES/night</strong>
+            </div>
+            <div><strong>Max Guests:</strong> 1</div>
+            <button onclick="openBookingModal('Single Room Haven in Nkubu', 2800)">Book Now</button>
+        </div>
+    </div>
+</div>
+
+<!-- Booking Modal -->
+<div id="bookingModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeBookingModal()">&times;</span>
+        <h2>Book Now</h2>
+        <form id="bookingForm" onsubmit="submitBooking(event)">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <input type="hidden" id="airbnbTitle" name="airbnbTitle">
+            <input type="hidden" id="price" name="price">
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+    <footer>
+      <div style="display: flex;">
+        <div style="display: block;">
+          <p>
+            This website is created by Ernest Osindo.
+          </p>
+          <p>© 2024 Ernest Airbnb. All rights reserved</p>
+        </div>
+
+        <div class="float-right">
+          <p style="margin-right: 0px; float: right;">
+            <a href="#" style="text-decoration: none; color: #007bff;">
+              Back to top.
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
