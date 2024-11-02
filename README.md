@@ -1,6 +1,9 @@
  Airbnb Main Page
-![air1](https://github.com/user-attachments/assets/9a610d9e-9510-4cd6-b6d5-c09a677f488![air2](https://github.com/user-attachments/assets/f83d502d-48de-4b98-8396-aae70690e785)
-8)![Uploading air3.PNG…]()
+Here are some screenshots of the project:
+
+![Screenshot 1](images/air1.PNG)
+![Screenshot 2](images/air2.PNG)
+![Screenshot 3](images/air3.PNG)
 
 
  Overview
